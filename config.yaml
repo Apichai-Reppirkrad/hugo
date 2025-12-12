@@ -1,7 +1,7 @@
 baseURL: ""
 languageCode: 'en-us'
 title: "Anecdote of Reppirkrad"
-theme: Papermod
+theme: "Papermod"
 
 params:
   homeInfoParams:
@@ -30,3 +30,8 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+      
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+      
